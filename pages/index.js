@@ -5,7 +5,7 @@ import About from '../src/components/About'
 import Experience from '../src/components/Experience'
 import SideProjects from '../src/components/Side-Projects'
 import FooterInfo from '../src/components/Footer-Info'
-
+import ScrollButton from '../src/components/utils/ScrollToTopButton'
 export default function Home() {
   return (
     <div className='w-full bg-color'>
@@ -35,6 +35,7 @@ export default function Home() {
       <footer className='flex flex-col items-center py-8 mt-10 border-t border-solid border-zinc-200'>
         <FooterInfo />
       </footer>
+      <ScrollButton />
     </div>
   )
 }

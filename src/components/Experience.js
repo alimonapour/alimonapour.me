@@ -1,5 +1,5 @@
-import TwelveGroupExperience from './Work-Experience/12-Experience'
-import FreelanceExperience from './Work-Experience/freelance-experience'
+import TwelveGroupExperience from './work-Experience/12-Experience'
+import FreelanceExperience from './work-Experience/freelance-experience'
 
 export function Experience() {
   return (

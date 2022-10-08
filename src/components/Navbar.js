@@ -13,7 +13,7 @@ const navigation = [
 export function Navbar() {
   return (
     <Popover>
-      <div className='relative w-full px-4 pt-6 sm:px-6 lg:px-8'>
+      <div className='fixed backdrop-blur py-4 top-0 z-40 w-full px-4 sm:px-6 lg:px-8'>
         <nav
           className='container px-5 sm:px-8 xl:px-0 text-lg max-w-5xl relative flex flex-row items-center justify-between sm:h-10 '
           aria-label='Global'
@@ -56,7 +56,7 @@ export function Navbar() {
       >
         <Popover.Panel
           focus
-          className='container px-5 sm:px-8 xl:px-0 max-w-5xl absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden'
+          className='container px-5 sm:px-8 xl:px-0 max-w-5xl absolute inset-x-0 top-0 z-50 origin-top-right transform p-2 transition md:hidden'
         >
           <div className='overflow-hidden rounded-lg bg-darkTheme shadow-md ring-1 ring-black ring-opacity-5'>
             <div className='flex items-center justify-between px-5 pt-4'>

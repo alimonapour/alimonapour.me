@@ -10,7 +10,8 @@ export default function Home() {
   return (
     <div className='w-full bg-color'>
       <Head>
-        <meta name='description' content='Front-End developer' />
+        <title>Ali Monapour</title>
+        <meta name='description' content='I am a Front-End developer' />
         <link rel='icon' href='/A.png' />
       </Head>
       <Navbar />

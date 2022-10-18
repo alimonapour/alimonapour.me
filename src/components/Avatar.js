@@ -20,7 +20,7 @@ export function Avatar() {
           <div className='my-3'>
             <h1 className='text-2xl sm:text-4xl text-center '>
               Hi, I&apos;m{' '}
-              <span className='text-brand font-bold hover:animate-pulse'>
+              <span className='font-bold hover:animate-pulse'>
                 Ali Monapour
               </span>
               !
@@ -42,27 +42,26 @@ export function Avatar() {
         <div className='flex'>
           <Link href='https://www.linkedin.com/in/alimonapour/'>
             <a
-              className='faIcon transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300'
+              className='faIcon transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-200 hover:text-tahiti'
               target='_blank'
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
                 style={{
                   fontSize: 50,
-                  color: '#fff',
                   margin: 5,
                 }}
               />
             </a>
           </Link>
-          <Link href='https://github.com/alimonapour'>
+          <Link href='https://github.com/alimonapour/'>
             <a
-              className='faIcon transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300'
+              className='faIcon transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-200 hover:text-tahiti'
               target='_blank'
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                style={{ fontSize: 50, color: '#fff', margin: 5 }}
+                style={{ fontSize: 50, margin: 5 }}
               />
             </a>
           </Link>

@@ -1,7 +1,7 @@
 export function About() {
   return (
     <article className='container px-5 sm:px-8 xl:px-0 text-lg max-w-5xl flex flex-col'>
-      <h1 className='text-LightYellow text-3xl sm:text-4xl my-3 font-bold text-left'>
+      <h1 className='bg-titleBgColor w-fit rounded p-2 text-3xl sm:text-4xl font-semibold my-3'>
         About Me
       </h1>
       <section className='space-y-3 ml-2'>

@@ -6,7 +6,7 @@ export function FooterInfo() {
   return (
     <>
       <div id='contact' className='flex flex-col my-3 items-center'>
-        <h1 className='text-LightYellow text-3xl m-3 text-center font-bold'>
+        <h1 className='bg-titleBgColor w-fit rounded text-3xl m-3 text-center font-semibold p-2'>
           Get in Touch
         </h1>
 
@@ -17,7 +17,7 @@ export function FooterInfo() {
           to get back to you!
         </h2>
         <button
-          className='box-content h-12 w-32 transition ease-in-out delay-150 bg-tahiti text-white  hover:-translate-y-1 hover:scale-105 duration-300 p-2 mb-3 sm:ml-2 text-2xl font-bold rounded-full my-5'
+          className='box-content h-10 w-32 transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100 duration-300 p-2 mb-3 sm:ml-2 text-2xl font-extrabold rounded-lg my-5'
           onClick={() => (window.location = 'mailto:alimonapour@gmail.com')}
         >
           Say Hi
@@ -27,14 +27,14 @@ export function FooterInfo() {
       <div className='flex'>
         <Link href='https://www.linkedin.com/in/alimonapour/'>
           <a
-            className='faIcon transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300'
+            className='faIcon transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-200 hover:text-tahiti'
             target='_blank'
           >
             <FontAwesomeIcon
               icon={faLinkedin}
               style={{
                 fontSize: 50,
-                color: '#fff',
+
                 margin: 10,
               }}
             />
@@ -42,12 +42,12 @@ export function FooterInfo() {
         </Link>
         <Link href='https://github.com/alimonapour'>
           <a
-            className='faIcon transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300'
+            className='faIcon transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-200 hover:text-tahiti'
             target='_blank'
           >
             <FontAwesomeIcon
               icon={faGithub}
-              style={{ fontSize: 50, color: '#fff', margin: 10 }}
+              style={{ fontSize: 50, margin: 10 }}
             />
           </a>
         </Link>
@@ -59,7 +59,7 @@ export function FooterInfo() {
             href='https://nextjs.org/'
             target='_blank'
             rel='noreferrer'
-            className='px-2 hover:text-gray-400'
+            className='px-2 hover:bg-hoverColor rounded p-1'
           >
             Next JS
           </a>
@@ -68,7 +68,7 @@ export function FooterInfo() {
             href='https://tailwindcss.com/'
             target='_blank'
             rel='noreferrer'
-            className='px-2 hover:text-gray-400'
+            className='px-2 hover:bg-hoverColor rounded p-1'
           >
             Tailwind CSS.
           </a>

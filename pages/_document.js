@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head />
-      <body className='w-full min-w-fit bg-darkTheme font-thin tracking-wider text-stone-200'>
+      <body className='w-full min-w-fit bg-darkTheme font-thin tracking-wider text-silver'>
         <Main />
         <NextScript />
       </body>

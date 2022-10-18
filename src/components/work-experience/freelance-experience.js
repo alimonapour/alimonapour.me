@@ -5,7 +5,7 @@ import { faAppStore, faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 export function FreelanceExperience() {
   return (
     <div className='my-3 ml-3 border-t-2 '>
-      <h2 className='text-lightSalmon text-2xl font-bold sm:text-4xl my-5 text-left'>
+      <h2 className='bg-lightTitleBg p-1 w-fit rounded text-2xl sm:text-4xl my-5'>
         React Native Developer @ Freelance
       </h2>
       <h3 className='text-xl sm:text-2xl my-3 text-left italic'>
@@ -33,7 +33,7 @@ export function FreelanceExperience() {
       <div className='flex flex-col sm:flex-row items-center justify-around py-3'>
         <Link href='https://play.google.com/store/apps/details?id=com.shafaaq.app'>
           <a
-            className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti text-white hover:-translate-y-1 hover:scale-105  duration-300 p-3 mb-3 sm:mb-0 rounded-lg'
+            className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-3 mb-3 sm:mb-0 rounded-lg'
             target='_blank'
           >
             Shafaaq News on{' '}
@@ -49,7 +49,7 @@ export function FreelanceExperience() {
 
         <Link href='https://apps.apple.com/us/app/shafaq-news/id1476990880'>
           <a
-            className='flex items-center sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-white hover:-translate-y-1 hover:scale-105  duration-300 p-3   rounded-lg'
+            className='flex items-center sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-3   rounded-lg'
             target='_blank'
           >
             Shafaaq News on{' '}

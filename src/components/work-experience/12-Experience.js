@@ -3,7 +3,7 @@ import Link from 'next/link'
 export function TwelveGroupExperience() {
   return (
     <div className='my-3 ml-3'>
-      <h2 className='text-lightSalmon font-bold text-2xl sm:text-4xl  text-left'>
+      <h2 className='bg-lightTitleBg p-1 w-fit rounded text-2xl sm:text-4xl'>
         Front-End Developer @ Twelve Group
       </h2>
       <h3 className='text-xl sm:text-2xl text-left italic my-3'>
@@ -46,7 +46,7 @@ export function TwelveGroupExperience() {
         <div className='list-none text-lg ml-6 my-2 py-2 flex flex-col items-center sm:flex-row sm:justify-around sm:items-center'>
           <Link href='https://kangonio.com/'>
             <a
-              className='w-60 sm:w-auto font-bold transition ease-in-out delay-150 bg-tahiti hover:-translate-y-1 hover:scale-105  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-white text-center'
+              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center'
               target='_blank'
             >
               kangonio.com
@@ -55,7 +55,7 @@ export function TwelveGroupExperience() {
 
           <Link href='https://zemnekhedmat.org/'>
             <a
-              className='w-60 sm:w-auto font-bold transition ease-in-out delay-150 bg-tahiti hover:-translate-y-1 hover:scale-105  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-white text-center'
+              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center'
               target='_blank'
             >
               zemnekhedmat.org
@@ -63,7 +63,7 @@ export function TwelveGroupExperience() {
           </Link>
           <Link href='https://www.missone.ir/'>
             <a
-              className='w-60 sm:w-auto font-bold transition ease-in-out delay-150 bg-tahiti hover:-translate-y-1 hover:scale-105  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-white text-center'
+              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center'
               target='_blank'
             >
               missone.ir

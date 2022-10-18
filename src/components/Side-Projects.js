@@ -4,7 +4,7 @@ import { faBook } from '@fortawesome/free-solid-svg-icons'
 export function SideProjects() {
   return (
     <section className='container px-5 sm:px-8 xl:px-0 text-lg max-w-5xl flex flex-col'>
-      <h1 className='text-LightYellow text-3xl sm:text-4xl my-3 text-left font-bold'>
+      <h1 className='bg-titleBgColor w-fit rounded p-2 font-semibold text-3xl sm:text-4xl my-3'>
         Side Projects
       </h1>
       <>
@@ -20,7 +20,7 @@ export function SideProjects() {
                 You can visit bookshelf app on your browser:{' '}
               </h3>
               <a
-                className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti text-white hover:-translate-y-1 hover:scale-105duration-300 p-2 ml-2 rounded-lg'
+                className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100 duration-300 p-2 ml-2 rounded-lg'
                 href='https://bookshelf.lol/'
                 target='_blank'
                 rel='noreferrer'

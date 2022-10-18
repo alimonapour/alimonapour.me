@@ -19,12 +19,14 @@ export function Navbar() {
           aria-label='Global'
         >
           <div className='flex flex-shrink-0 flex-grow items-center lg:flex-grow-0'>
-            <div className='flex w-full items-center justify-between md:w-auto'>
+            <div className='flex w-full items-center justify-between md:w-auto '>
               <Link href='/'>
-                <a className=' hover:text-LightYellow text-2xl'>{'{ Ali }'}</a>
+                <a className='hover:bg-hoverColor rounded p-2 text-2xl'>
+                  {'{ Ali }'}
+                </a>
               </Link>
               <div className='-mr-2 flex items-center md:hidden'>
-                <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
+                <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-hoverColor'>
                   <span className='sr-only'>Open main menu</span>
                   <Bars3Icon className='h-6 w-6' aria-hidden='true' />
                 </Popover.Button>
@@ -36,7 +38,7 @@ export function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className='font-semibold text-stone-200 hover:text-LightYellow'
+                className='font-semibold text-stone-200 hover:bg-hoverColor rounded p-2'
               >
                 {item.name}
               </a>
@@ -61,12 +63,12 @@ export function Navbar() {
           <div className='overflow-hidden rounded-lg bg-darkTheme shadow-md ring-1 ring-black ring-opacity-5'>
             <div className='flex items-center justify-between px-5 pt-4'>
               <div>
-                <a className='hover:text-LightYellow text-2xl h-8 w-auto cursor-pointer'>
+                <a className='hover:bg-hoverColor rounded p-2 text-2xl h-8 w-auto cursor-pointer'>
                   {'{ Ali }'}
                 </a>
               </div>
               <div className='-mr-2'>
-                <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
+                <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-hoverColor'>
                   <span className='sr-only'>Close main menu</span>
                   <XMarkIcon className='h-6 w-6' aria-hidden='true' />
                 </Popover.Button>
@@ -77,7 +79,7 @@ export function Navbar() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className='block rounded-md px-3 py-2 text-base font-semibold text-stone-200 hover:bg-metal hover:text-LightYellow'
+                  className='block rounded-md px-3 py-2 text-base font-semibold text-stone-200  hover:bg-hoverColor'
                 >
                   {item.name}
                 </a>

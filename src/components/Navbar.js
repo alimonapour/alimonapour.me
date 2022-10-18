@@ -33,12 +33,12 @@ export function Navbar() {
               </div>
             </div>
           </div>
-          <div className='hidden md:ml-10 md:block md:space-x-8 md:pr-4'>
+          <div className='hidden md:ml-10 md:block md:space-x-4 md:pr-2'>
             {navigation.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className='font-semibold hover:bg-hoverColor rounded p-2'
+                className='font-semibold text-silver hover:bg-hoverColor rounded p-2'
               >
                 {item.name}
               </a>
@@ -79,7 +79,7 @@ export function Navbar() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className='block rounded-md px-3 py-2 text-base font-semibold  hover:bg-hoverColor'
+                  className='block rounded-md px-3 py-2 text-base font-semibold text-silver  hover:bg-hoverColor'
                 >
                   {item.name}
                 </a>

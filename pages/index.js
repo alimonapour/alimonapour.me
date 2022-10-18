@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <div className='w-full bg-color'>
       <Head>
-        <title>Ali Monapour</title>
         <meta name='description' content='Front-End developer' />
         <link rel='icon' href='/A.png' />
       </Head>

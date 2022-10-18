@@ -38,7 +38,7 @@ export function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className='font-semibold text-stone-200 hover:bg-hoverColor rounded p-2'
+                className='font-semibold hover:bg-hoverColor rounded p-2'
               >
                 {item.name}
               </a>
@@ -79,7 +79,7 @@ export function Navbar() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className='block rounded-md px-3 py-2 text-base font-semibold text-stone-200  hover:bg-hoverColor'
+                  className='block rounded-md px-3 py-2 text-base font-semibold  hover:bg-hoverColor'
                 >
                   {item.name}
                 </a>

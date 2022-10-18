@@ -26,7 +26,7 @@ const ScrollButton = () => {
 
   return (
     <div className='relative'>
-      <button className='fixed bottom-8 right-5 h-16 w-16 text-5xl cursor-pointer text-stone-200 hover:animate-bounce'>
+      <button className='fixed bottom-8 right-5 h-16 w-16 text-5xl cursor-pointe hover:animate-bounce'>
         <ChevronDoubleUpIcon
           onClick={scrollToTop}
           style={{

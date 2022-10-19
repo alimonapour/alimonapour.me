@@ -17,7 +17,7 @@ export function About() {
         </p>
         <p className='text-xl sm:text-2xl text-left'>
           Also, as a React Native developer for my freelancing experience, I
-          developed Android and iOS applications, one of which is in the Google
+          developed Android and IOS applications, one of which is in the Google
           Play store and the Apple App Store.
         </p>
         <p className='text-xl sm:text-2xl text-left'>

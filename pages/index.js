@@ -8,7 +8,7 @@ import FooterInfo from '../src/components/Footer-Info'
 import ScrollButton from '../src/components/utils/ScrollToTopButton'
 export default function Home() {
   return (
-    <div className='w-full bg-color'>
+    <div className='w-full bg-color text-silver'>
       <Head>
         <title>Ali Monapour</title>
         <meta name='description' content='I am a Front-End developer' />

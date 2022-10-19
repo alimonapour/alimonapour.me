@@ -63,7 +63,7 @@ export function Navbar() {
           <div className='overflow-hidden rounded-lg bg-darkTheme shadow-md ring-1 ring-black ring-opacity-5'>
             <div className='flex items-center justify-between px-5 pt-4'>
               <div>
-                <a className='hover:bg-hoverColor rounded p-2 text-2xl h-8 w-auto cursor-pointer'>
+                <a className='hover:bg-hoverColor rounded p-2 text-2xl h-8 w-auto cursor-pointer font-medium'>
                   {'{ Ali }'}
                 </a>
               </div>

@@ -6,7 +6,7 @@ export function FooterInfo() {
   return (
     <>
       <div id='contact' className='flex flex-col my-3 items-center'>
-        <h1 className='bg-titleBgColor w-fit rounded text-3xl m-3 text-center font-semibold p-2'>
+        <h1 className=' text-3xl m-3 text-center font-semibold'>
           Get in Touch
         </h1>
 

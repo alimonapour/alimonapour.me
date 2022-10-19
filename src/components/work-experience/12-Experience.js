@@ -3,7 +3,7 @@ import Link from 'next/link'
 export function TwelveGroupExperience() {
   return (
     <div className='my-3 ml-3 font-medium'>
-      <h2 className='bg-lightTitleBg p-1 w-fit rounded text-2xl sm:text-4xl '>
+      <h2 className='w-fit rounded text-2xl sm:text-4xl '>
         Front-End Developer @ Twelve Group
       </h2>
       <h3 className='text-xl sm:text-2xl text-left italic my-3'>

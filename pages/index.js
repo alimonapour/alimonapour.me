@@ -11,7 +11,6 @@ export default function Home() {
     <div className='w-full bg-color text-silver'>
       <Head>
         <title>Ali Monapour</title>
-        <meta name='description' content='I am a Front-End developer' />
         <link rel='icon' href='/A.png' />
       </Head>
       <Navbar />

@@ -4,9 +4,7 @@ import { faBook } from '@fortawesome/free-solid-svg-icons'
 export function SideProjects() {
   return (
     <section className='container px-5 sm:px-8 xl:px-0 text-lg max-w-5xl flex flex-col font-medium'>
-      <h1 className='bg-titleBgColor w-fit rounded p-2 font-semibold text-3xl sm:text-4xl my-3'>
-        Side Projects
-      </h1>
+      <h1 className='font-semibold text-3xl sm:text-4xl my-3'>Side Projects</h1>
       <>
         <ul className='list-disc ml-3'>
           <li>

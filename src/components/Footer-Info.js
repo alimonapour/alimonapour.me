@@ -10,7 +10,7 @@ export function FooterInfo() {
           Get in Touch
         </h1>
 
-        <h2 className='text-xl sm:text-2xl m-3 text-center'>
+        <h2 className='text-xl sm:text-2xl m-3 text-center font-medium'>
           Currently, I&apos;m seeking new opportunities, and my inbox is always
           open. <br />
           Whether you have a question or just want to say hi, I’ll try my best
@@ -52,8 +52,8 @@ export function FooterInfo() {
           </a>
         </Link>
       </div>
-      <div className='flex flex-col items-center'>
-        <h3 className='text-lg sm:text-2xl m-3 italic text-center'>
+      <div className='flex flex-col items-center font-medium'>
+        <h3 className='text-lg sm:text-2xl m-3 italic text-center '>
           Powered by
           <a
             href='https://nextjs.org/'

@@ -18,20 +18,20 @@ export function Avatar() {
             className='rounded-full overflow-hidden mb-4'
           />
           <div className='my-3'>
-            <h1 className='text-2xl sm:text-4xl text-center '>
+            <h1 className='text-2xl sm:text-4xl text-center font-medium'>
               Hi, I&apos;m{' '}
               <span className='font-bold hover:animate-pulse'>
                 Ali Monapour
               </span>
               !
             </h1>
-            <h2 className='text-2xl m-2 text-center hover:animate-bounce'>
+            <h2 className='text-2xl m-2 text-center hover:animate-bounce font-medium'>
               👉 My smile never fades 😊
             </h2>
-            <h1 className='text-xl sm:text-3xl m-2 text-center text-tahiti italic capitalize '>
+            <h1 className='text-xl sm:text-3xl m-2 text-center text-tahiti italic capitalize font-medium'>
               Brings ideas to life with code.
             </h1>
-            <h2 className='text-2xl sm:text-3xl m-2 text-center'>
+            <h2 className='text-2xl sm:text-3xl m-2 text-center font-medium'>
               I am a{' '}
               <span className='text-xl sm:text-4xl sm:font-bold'>
                 Front-End developer.

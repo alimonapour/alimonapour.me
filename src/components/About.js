@@ -4,7 +4,7 @@ export function About() {
       <h1 className='bg-titleBgColor w-fit rounded p-2 text-3xl sm:text-4xl font-semibold my-3'>
         About Me
       </h1>
-      <section className='space-y-3 ml-2'>
+      <section className='space-y-3 ml-2 font-medium'>
         <p className='text-xl sm:text-2xl text-left'>
           I am a Front-End developer with over 4 years of experience in
           implementing complex web applications, specializing in SPA development

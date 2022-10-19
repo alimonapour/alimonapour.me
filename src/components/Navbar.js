@@ -15,13 +15,13 @@ export function Navbar() {
     <Popover>
       <div className='fixed backdrop-blur py-4 top-0 z-40 w-full px-4 sm:px-6 lg:px-8'>
         <nav
-          className='container px-5 sm:px-8 xl:px-0 text-lg max-w-5xl relative flex flex-row items-center justify-between sm:h-10 '
+          className='container px-5 sm:px-8 xl:px-0 text-lg font-medium max-w-5xl relative flex flex-row items-center justify-between sm:h-10 '
           aria-label='Global'
         >
           <div className='flex flex-shrink-0 flex-grow items-center lg:flex-grow-0'>
             <div className='flex w-full items-center justify-between md:w-auto '>
               <Link href='/'>
-                <a className='hover:bg-hoverColor rounded p-2 text-2xl'>
+                <a className='hover:bg-hoverColor rounded p-2 text-2xl font-medium'>
                   {'{ Ali }'}
                 </a>
               </Link>

@@ -17,7 +17,7 @@ export function FooterInfo() {
           to get back to you!
         </h2>
         <button
-          className='box-content h-10 w-32 transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100 duration-300 p-2 mb-3 sm:ml-2 text-2xl font-extrabold rounded-lg my-5'
+          className='box-content h-10 w-32 transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100 duration-300 p-2 mb-3 sm:ml-2 text-2xl font-extrabold rounded-lg my-5 ring-metal ring-1'
           onClick={() => (window.location = 'mailto:alimonapour@gmail.com')}
         >
           Say Hi

@@ -33,7 +33,7 @@ export function FreelanceExperience() {
       <div className='flex flex-col sm:flex-row items-center justify-around py-3'>
         <Link href='https://play.google.com/store/apps/details?id=com.shafaaq.app'>
           <a
-            className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-3 mb-3 sm:mb-0 rounded-lg'
+            className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti  text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-3 mb-3 sm:mb-0 rounded-lg ring-metal ring-1'
             target='_blank'
           >
             Shafaaq News on{' '}
@@ -49,7 +49,7 @@ export function FreelanceExperience() {
 
         <Link href='https://apps.apple.com/us/app/shafaq-news/id1476990880'>
           <a
-            className='flex items-center sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-3   rounded-lg'
+            className='flex items-center sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti  text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-3 rounded-lg ring-metal ring-1'
             target='_blank'
           >
             Shafaaq News on{' '}

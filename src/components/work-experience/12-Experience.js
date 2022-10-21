@@ -46,7 +46,7 @@ export function TwelveGroupExperience() {
         <div className='list-none text-lg ml-6 my-2 py-2 flex flex-col items-center sm:flex-row sm:justify-around sm:items-center'>
           <Link href='https://kangonio.com/'>
             <a
-              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center'
+              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center ring-metal ring-1'
               target='_blank'
             >
               kangonio.com
@@ -55,7 +55,7 @@ export function TwelveGroupExperience() {
 
           <Link href='https://zemnekhedmat.org/'>
             <a
-              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center'
+              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center ring-metal ring-1'
               target='_blank'
             >
               zemnekhedmat.org
@@ -63,7 +63,7 @@ export function TwelveGroupExperience() {
           </Link>
           <Link href='https://www.missone.ir/'>
             <a
-              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center'
+              className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center ring-metal ring-1'
               target='_blank'
             >
               missone.ir

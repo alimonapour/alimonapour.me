@@ -18,7 +18,7 @@ export function SideProjects() {
                 You can visit bookshelf app on your browser:{' '}
               </h3>
               <a
-                className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100 duration-300 p-2 ml-2 rounded-lg'
+                className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100 duration-300 p-2 ml-2 rounded-lg ring-metal ring-1'
                 href='https://bookshelf.lol/'
                 target='_blank'
                 rel='noreferrer'

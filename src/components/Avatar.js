@@ -25,7 +25,7 @@ export function Avatar() {
               </span>
               !
             </h1>
-            <h2 className='text-2xl m-2 text-center hover:animate-bounce font-medium'>
+            <h2 className='text-2xl m-2 text-center font-medium'>
               👉 My smile never fades 😊
             </h2>
             <h1 className='text-xl sm:text-3xl m-2 text-center text-tahiti italic capitalize font-medium'>

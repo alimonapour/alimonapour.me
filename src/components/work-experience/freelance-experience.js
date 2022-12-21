@@ -19,15 +19,31 @@ export function FreelanceExperience() {
       </h6>
       <ul className='list-disc text-xl text-left py-3 ml-5'>
         <li>
-          The Shafaaq News mobile application was developed using React Native
-          and Redux for Android and IOS.
+          The Shafaaq News mobile application was developed using{' '}
+          <span className='font-semibold text-tahiti'>React Native</span> and{' '}
+          <span className='font-semibold text-tahiti'>Redux</span> for{' '}
+          <span className='font-semibold text-tahiti'>Android</span> and{' '}
+          <span className='font-semibold text-tahiti'>IOS</span>.
         </li>
-        <li>Data is fetched from API and shown in the application.</li>
-        <li>Redux-persist was used to persist data.</li>
+        <li>
+          Data is fetched from{' '}
+          <span className='font-semibold text-tahiti'>RESTful API</span> and
+          shown in the application.
+        </li>
+        <li>
+          <span className='font-semibold text-tahiti'>Redux-persist</span> was
+          used to persist data.
+        </li>
 
         <li>
-          Push notification system has been implemented using
-          react-native-firebase.
+          <span className='font-semibold text-tahiti'>
+            Push notification system
+          </span>{' '}
+          has been implemented using{' '}
+          <span className='font-semibold text-tahiti'>
+            react-native-firebase
+          </span>
+          .
         </li>
       </ul>
       <div className='flex flex-col sm:flex-row items-center justify-around py-3'>

@@ -12,7 +12,12 @@ export function TwelveGroupExperience() {
       <ul className='list-disc text-xl sm:text-2xl py-3 ml-5'>
         <li>
           Developed multiple interactive and browser-compatible applications
-          using HTML5, CSS3, and TypeScript/JavaScript (React, Redux).
+          using <span className='font-semibold text-tahiti'>HTML5</span>,{' '}
+          <span className='font-semibold text-tahiti'>CSS3</span>, and{' '}
+          <span className='font-semibold text-tahiti'>
+            TypeScript/JavaScript (React, Redux)
+          </span>
+          .
         </li>
         <li>
           Worked in an agile, collaborative environment to receive design
@@ -23,12 +28,17 @@ export function TwelveGroupExperience() {
           as well as optimized code for performance in large-scale applications.
         </li>
         <li>
-          Developed a responsive design with CSS Grid and CSS Flexbox that
+          Developed a responsive design with{' '}
+          <span className='font-semibold text-tahiti'>CSS Grid</span> and{' '}
+          <span className='font-semibold text-tahiti'>CSS Flexbox</span> that
           allowed cross-platform accessibility to the website on any device with
           primary use on mobile.
         </li>
         <li>
-          Utilized and implemented attractive, responsive, and mobile-friendly
+          Utilized and implemented{' '}
+          <span className='font-semibold text-tahiti'>attractive</span>,{' '}
+          <span className='font-semibold text-tahiti'>responsive</span>, and{' '}
+          <span className='font-semibold text-tahiti'> mobile-friendly</span>{' '}
           website contexts and elements.
         </li>
         <li>
@@ -37,23 +47,39 @@ export function TwelveGroupExperience() {
           business specifications.
         </li>
         <li>
-          Implemented unit testing with Jest, integration testing with React
-          Testing Library, and end-to-end testing with Cypress.
+          Implemented{' '}
+          <span className='font-semibold text-tahiti'>unit testing</span> with{' '}
+          <span className='font-semibold text-tahiti'>Jest</span>,{' '}
+          <span className='font-semibold text-tahiti'>integration testing</span>{' '}
+          with{' '}
+          <span className='font-semibold text-tahiti'>
+            React Testing Library
+          </span>
+          , and{' '}
+          <span className='font-semibold text-tahiti'>end-to-end testing</span>{' '}
+          with <span className='font-semibold text-tahiti'>Cypress</span>.
         </li>
         <li>
           Produced multiple visual elements of web applications by translating
-          UI/UX design wireframes into code, producing high-quality markup using
-          HTML5 and CSS3.
+          UI/UX design wireframes into code, producing high-quality markup using{' '}
+          <span className='font-semibold text-tahiti'>HTML5</span> and{' '}
+          <span className='font-semibold text-tahiti'>CSS3</span>.
         </li>
         <li>Assisted in building reusable code for future use.</li>
         <li>Developed new features to enhance user experience.</li>
         <li>
-          Used Git version control system to manage source code changes and
-          collaborate with other developers on tasks when needed.
+          Used{' '}
+          <span className='font-semibold text-tahiti'>
+            Git version control system
+          </span>{' '}
+          to manage source code changes and collaborate with other developers on
+          tasks when needed.
         </li>
         <li>
-          The app routers are managed by React Router and receive data from the
-          RESTful API.
+          The app routers are managed by{' '}
+          <span className='font-semibold text-tahiti'>React Router</span> and
+          receive data from the{' '}
+          <span className='font-semibold text-tahiti'>RESTful API</span>.
         </li>
       </ul>
       <div className='flex flex-col py-3 '>

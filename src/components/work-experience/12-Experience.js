@@ -7,7 +7,7 @@ export function TwelveGroupExperience() {
         Front-End Developer @ Twelve Group
       </h2>
       <h3 className='text-xl sm:text-2xl text-left italic my-3'>
-        <span>November 2017 - Present (4 years 10 months) in Tabriz, Iran</span>{' '}
+        <span>November 2018 - Present (4 years 2 months) in Tabriz, Iran</span>{' '}
       </h3>
       <ul className='list-disc text-xl sm:text-2xl py-3 ml-5'>
         <li>

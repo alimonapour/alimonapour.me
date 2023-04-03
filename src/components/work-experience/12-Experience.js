@@ -7,7 +7,7 @@ export function TwelveGroupExperience() {
         Front-End Developer @ Twelve Group
       </h2>
       <h3 className='text-xl sm:text-2xl text-left italic my-3'>
-        <span>November 2018 - Present (4 years 2 months) in Tabriz, Iran</span>{' '}
+        <span>November 2017 - Present (5 years 6 months) in Tabriz, Iran</span>{' '}
       </h3>
       <ul className='list-disc text-xl sm:text-2xl py-3 ml-5'>
         <li>
@@ -65,6 +65,10 @@ export function TwelveGroupExperience() {
           <span className='font-semibold text-tahiti'>HTML5</span> and{' '}
           <span className='font-semibold text-tahiti'>CSS3</span>.
         </li>
+        <li>
+          Mentored a junior team member on developing React applications,
+          developing a test-driven mindset, and dealing with errors.
+        </li>
         <li>Assisted in building reusable code for future use.</li>
         <li>Developed new features to enhance user experience.</li>
         <li>
@@ -74,6 +78,11 @@ export function TwelveGroupExperience() {
           </span>{' '}
           to manage source code changes and collaborate with other developers on
           tasks when needed.
+        </li>
+        <li>
+          Developed Pixel Perfect UIs by converting the design into{' '}
+          <span className='font-semibold text-tahiti'>Tailwind CSS</span>
+          config files.
         </li>
         <li>
           The app routers are managed by{' '}

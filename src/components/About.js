@@ -10,7 +10,7 @@ export function About() {
           </span>{' '}
           with{' '}
           <span className='font-semibold text-tahiti'>
-            over 4 years of experience{' '}
+            over 5 years of experience{' '}
           </span>{' '}
           in implementing complex web applications, specializing in SPA
           development utilizing{' '}

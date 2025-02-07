@@ -5,7 +5,7 @@ import { faAppStore, faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 export function FreelanceExperience() {
   return (
     <div className='my-3 ml-3 border-t-2 font-medium'>
-      <h2 className='p-1 w-fit rounded text-2xl sm:text-4xl my-5 '>
+      <h2 className='p-1 w-fit rounded text-2xl sm:text-4xl my-5'>
         React Native Developer @ Freelance
       </h2>
       <h3 className='text-xl sm:text-2xl my-3 text-left italic'>

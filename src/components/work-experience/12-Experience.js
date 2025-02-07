@@ -2,12 +2,12 @@ import Link from 'next/link'
 
 export function TwelveGroupExperience() {
   return (
-    <div className='my-3 ml-3 font-medium'>
-      <h2 className='w-fit rounded text-2xl sm:text-4xl '>
+    <div className='my-3 ml-3 border-t-2 font-medium'>
+      <h2 className='w-fit py-4 rounded text-2xl sm:text-4xl '>
         Front-End Developer @ Twelve Group
       </h2>
       <h3 className='text-xl sm:text-2xl text-left italic my-3'>
-        <span>November 2017 - Present (5 years 6 months) in Tabriz, Iran</span>{' '}
+        <span>May 2020 - June 2023 (3 years 2 months) in Tabriz, Iran</span>{' '}
       </h3>
       <ul className='list-disc text-xl sm:text-2xl py-3 ml-5'>
         <li>
@@ -20,19 +20,23 @@ export function TwelveGroupExperience() {
           .
         </li>
         <li>
-          Worked in an agile, collaborative environment to receive design
-          requirements, and test applications (Backend, DevOps, etc).
+          Experience with integration testing using{' '}
+          <span className='font-semibold text-tahiti'>Cypress</span>, and
+          covering edge cases with unit tests using{' '}
+          <span className='font-semibold text-tahiti'>
+            React Testing Library
+          </span>{' '}
+          and <span className='font-semibold text-tahiti'>Jest</span>.
         </li>
         <li>
-          Created reusable components that can be used across multiple projects
-          as well as optimized code for performance in large-scale applications.
+          Designed and implemented custom solutions to complex front-end
+          challenges, including implementing real-time updates, and optimizing
+          page load times.
         </li>
         <li>
-          Developed a responsive design with{' '}
-          <span className='font-semibold text-tahiti'>CSS Grid</span> and{' '}
-          <span className='font-semibold text-tahiti'>CSS Flexbox</span> that
-          allowed cross-platform accessibility to the website on any device with
-          primary use on mobile.
+          Actively participated in code reviews, offering constructive feedback
+          and ensuring code quality, leading to fewer bugs and improved overall
+          product stability.
         </li>
         <li>
           Utilized and implemented{' '}
@@ -41,44 +45,12 @@ export function TwelveGroupExperience() {
           <span className='font-semibold text-tahiti'> mobile-friendly</span>{' '}
           website contexts and elements.
         </li>
-        <li>
-          Translated user requirements into scalable code, developed prototypes
-          conducted wireframing activities and ensured alignment with client
-          business specifications.
-        </li>
-        <li>
-          Implemented{' '}
-          <span className='font-semibold text-tahiti'>unit testing</span> with{' '}
-          <span className='font-semibold text-tahiti'>Jest</span>,{' '}
-          <span className='font-semibold text-tahiti'>integration testing</span>{' '}
-          with{' '}
-          <span className='font-semibold text-tahiti'>
-            React Testing Library
-          </span>
-          , and{' '}
-          <span className='font-semibold text-tahiti'>end-to-end testing</span>{' '}
-          with <span className='font-semibold text-tahiti'>Cypress</span>.
-        </li>
-        <li>
-          Produced multiple visual elements of web applications by translating
-          UI/UX design wireframes into code, producing high-quality markup using{' '}
-          <span className='font-semibold text-tahiti'>HTML5</span> and{' '}
-          <span className='font-semibold text-tahiti'>CSS3</span>.
-        </li>
+
         <li>
           Mentored a junior team member on developing React applications,
           developing a test-driven mindset, and dealing with errors.
         </li>
-        <li>Assisted in building reusable code for future use.</li>
-        <li>Developed new features to enhance user experience.</li>
-        <li>
-          Used{' '}
-          <span className='font-semibold text-tahiti'>
-            Git version control system
-          </span>{' '}
-          to manage source code changes and collaborate with other developers on
-          tasks when needed.
-        </li>
+
         <li>
           Developed Pixel Perfect UIs by converting the design into{' '}
           <span className='font-semibold text-tahiti'>Tailwind CSS</span>

@@ -10,12 +10,24 @@ export function About() {
           </span>{' '}
           with{' '}
           <span className='font-semibold text-tahiti'>
-            over 5 years of experience{' '}
+            over 7 years of experience{' '}
           </span>{' '}
-          in implementing complex web applications, specializing in SPA
-          development utilizing{' '}
-          <span className='font-semibold text-tahiti '>React</span> ecosystem.
+          developing high-quality, maintainable, and tested web applications.
+          Proficient in{' '}
+          <span className='font-semibold text-tahiti'>JavaScript</span> and
+          <span className='font-semibold text-tahiti'> TypeScript</span> with
+          expertise in
+          <span className='font-semibold text-tahiti'> React JS</span> and{' '}
+          <span className='font-semibold text-tahiti'>Next JS</span>.
+          Consistently delivered efficient, well-tested code, and contributed to
+          product development by collaborating closely with designers and
+          product managers. Successfully optimized performance across multiple
+          web browsers, enhancing user experience. Engaged in continuous
+          learning to integrate new technologies and best practices. Fluent in
+          English, with a strong performance history delivering scalable,
+          high-quality code.
         </p>
+
         <p className='text-xl sm:text-2xl text-left'>
           Furthermore, I am also experienced with{' '}
           <span className=' font-semibold text-tahiti '>

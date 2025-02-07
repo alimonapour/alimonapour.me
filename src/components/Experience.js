@@ -1,5 +1,7 @@
 import TwelveGroupExperience from './work-experience/12-Experience'
 import FreelanceExperience from './work-experience/freelance-experience'
+import AdlAfarinanMandegar from './work-experience/AdlAfarinanMandegar'
+import JuniorExperience from './work-experience/JuniorExperience'
 
 export function Experience() {
   return (
@@ -7,8 +9,10 @@ export function Experience() {
       <h1 className='text-3xl sm:text-4xl font-semibold my-3'>
         Work Experience
       </h1>
+      <AdlAfarinanMandegar />
       <TwelveGroupExperience />
       <FreelanceExperience />
+      <JuniorExperience />
     </section>
   )
 }

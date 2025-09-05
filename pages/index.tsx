@@ -6,7 +6,7 @@ import Experience from '../src/components/Experience'
 import SideProjects from '../src/components/Side-Projects'
 import FooterInfo from '../src/components/Footer-Info'
 import ScrollButton from '../src/components/utils/ScrollToTopButton'
-import HelixLine from '../src/components/HelixLine'
+// import HelixLine from '../src/components/HelixLine'
 import AnimatedSection from '../src/components/AnimatedSection'
 import PerformanceOptimizer from '../src/components/PerformanceOptimizer'
 import ScrollProgressBar from '../src/components/ScrollProgressBar'
@@ -20,7 +20,7 @@ export default function Home(): JSX.Element {
       </Head>
       <PerformanceOptimizer />
       <ScrollProgressBar />
-      <HelixLine />
+      {/* <HelixLine /> */}
       <Navbar />
       <main className='space-y-16'>
         <div className='w-full mt-7' id='hero'>

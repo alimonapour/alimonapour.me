@@ -87,7 +87,7 @@ export function About(): JSX.Element {
             transition={{ duration: 0.6 }}
             viewport={{ once: false }}
           >
-            Here are a few technologies I've been working with recently:
+            Here are a few technologies I&apos;ve been working with recently:
           </motion.h3>
           <motion.ul
             className='grid lg:grid-cols-3 sm:grid-cols-2  text-xl sm:text-2xl py-3 font-semibold'

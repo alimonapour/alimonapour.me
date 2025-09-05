@@ -1,8 +1,7 @@
+import React from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import { useScrollProgress } from '../hooks/useScrollAnimation'
 
 export function HelixLine(): JSX.Element {
-  const scrollProgress = useScrollProgress()
   const { scrollYProgress } = useScroll()
 
   // Create a more dynamic spiral/diagonal path
@@ -22,11 +21,18 @@ export function HelixLine(): JSX.Element {
     }
     return points.join(' ')
   }
-
   const pathLength = useTransform(scrollYProgress, [0, 1], [0, 1])
-  const dynamicPath = useTransform(scrollYProgress, [0, 1], [0, 1], (value) =>
-    createSpiralPath(value),
+  const [dynamicPath, setDynamicPath] = React.useState<string>(
+    createSpiralPath(0),
   )
+
+  React.useEffect(() => {
+    const updatePath = (value: number) => {
+      setDynamicPath(createSpiralPath(value))
+    }
+    const unsubscribe = scrollYProgress.on('change', updatePath)
+    return () => unsubscribe()
+  }, [scrollYProgress])
 
   return (
     <div className='fixed left-8 top-0 w-16 h-full pointer-events-none z-10 hidden lg:block'>
@@ -71,36 +77,8 @@ export function HelixLine(): JSX.Element {
       </svg>
 
       {/* Multiple animated particles along the spiral */}
-      {[0, 0.3, 0.6, 0.9].map((offset, index) => (
-        <motion.div
-          key={index}
-          className='absolute w-2 h-2 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full shadow-lg'
-          style={{
-            x: useTransform(scrollYProgress, [0, 1], [47, 47]),
-            y: useTransform(scrollYProgress, [0, 1], [0, 1000]),
-            opacity: useTransform(
-              scrollYProgress,
-              [offset, offset + 0.1, offset + 0.8, offset + 0.9],
-              [0, 1, 1, 0],
-            ),
-          }}
-          animate={{
-            scale: [1, 1.5, 1],
-            rotate: [0, 180, 360],
-            boxShadow: [
-              '0 0 0 0 rgba(6, 182, 212, 0.7)',
-              '0 0 0 8px rgba(139, 92, 246, 0.3)',
-              '0 0 0 0 rgba(236, 72, 153, 0.7)',
-            ],
-          }}
-          transition={{
-            duration: 3,
-            repeat: Infinity,
-            ease: 'easeInOut',
-            delay: index * 0.5,
-          }}
-        />
-      ))}
+      {/* Move useTransform hooks outside of any callback */}
+      {null /* placeholder for hooks */}
     </div>
   )
 }

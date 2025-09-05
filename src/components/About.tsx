@@ -1,4 +1,6 @@
-export function About() {
+import { motion } from 'framer-motion'
+
+export function About(): JSX.Element {
   return (
     <article className='container px-5 sm:px-8 xl:px-0 text-lg max-w-5xl flex flex-col'>
       <h1 className=' text-3xl sm:text-4xl font-semibold my-3'>About Me</h1>
@@ -77,50 +79,74 @@ export function About() {
           watching movies and TV series as well as reading books in my free
           time.
         </p>
-        <div className='my-3'>
-          <h3 className='text-xl sm:text-2xl my-3 text-left'>
-            Here are a few technologies I’ve been working with recently:
-          </h3>
-          <ul className='grid lg:grid-cols-3 sm:grid-cols-2  text-xl sm:text-2xl py-3 font-semibold '>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center '>
-              JavaScript (ES6+)
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              TypeScript
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              React JS(Hooks){' '}
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              Next JS
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              React Native
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              HTML5 && CSS3
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              Node JS (Express JS)
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              Redux JS
-            </li>
-
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              Jest
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              Cypress
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              React Testing Library
-            </li>
-            <li className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center'>
-              Tailwind CSS
-            </li>
-          </ul>
-        </div>
+        <motion.div className='my-3'>
+          <motion.h3
+            className='text-xl sm:text-2xl my-3 text-left'
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: false }}
+          >
+            Here are a few technologies I've been working with recently:
+          </motion.h3>
+          <motion.ul
+            className='grid lg:grid-cols-3 sm:grid-cols-2  text-xl sm:text-2xl py-3 font-semibold'
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: false }}
+          >
+            {[
+              'JavaScript (ES6+)',
+              'TypeScript',
+              'React JS(Hooks)',
+              'Next JS',
+              'React Native',
+              'HTML5 && CSS3',
+              'Node JS (Express JS)',
+              'Redux JS',
+              'Jest',
+              'Cypress',
+              'React Testing Library',
+              'Tailwind CSS',
+            ].map((tech, index) => (
+              <motion.li
+                key={tech}
+                className='bg-LightDark p-2.5 my-1 sm:mx-1 rounded ring-metal ring-2 text-center cursor-pointer'
+                initial={{ opacity: 0, scale: 0.8, y: 30, rotateX: -15 }}
+                whileInView={{
+                  opacity: 1,
+                  scale: 1,
+                  y: 0,
+                  rotateX: 0,
+                  transition: {
+                    duration: 0.6,
+                    delay: index * 0.08,
+                    ease: [0.16, 1, 0.3, 1],
+                    type: 'spring',
+                    stiffness: 120,
+                    damping: 15,
+                  },
+                }}
+                whileHover={{
+                  scale: 1.08,
+                  y: -5,
+                  backgroundColor: '#06b6d4',
+                  color: '#000',
+                  boxShadow: '0 10px 25px rgba(6, 182, 212, 0.3)',
+                  transition: {
+                    duration: 0.3,
+                    ease: [0.16, 1, 0.3, 1],
+                  },
+                }}
+                whileTap={{ scale: 0.95 }}
+                viewport={{ once: false, margin: '-50px' }}
+              >
+                {tech}
+              </motion.li>
+            ))}
+          </motion.ul>
+        </motion.div>
       </section>
     </article>
   )

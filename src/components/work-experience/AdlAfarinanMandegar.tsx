@@ -1,4 +1,4 @@
-export function AdlAfarinanMandegar() {
+export function AdlAfarinanMandegar(): JSX.Element {
   return (
     <div className='my-3 ml-3 font-medium border-t-2 py-4'>
       <h2 className='w-fit rounded text-2xl sm:text-4xl '>

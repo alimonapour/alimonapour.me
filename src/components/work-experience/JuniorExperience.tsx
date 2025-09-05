@@ -1,4 +1,4 @@
-export function JuniorExperience() {
+export function JuniorExperience(): JSX.Element {
   return (
     <div className='my-3 ml-3 font-medium border-t-2'>
       <h2 className='w-fit rounded text-2xl sm:text-4xl  my-5'>

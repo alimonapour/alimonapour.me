@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export function TwelveGroupExperience() {
+export function TwelveGroupExperience(): JSX.Element {
   return (
     <div className='my-3 ml-3 border-t-2 font-medium'>
       <h2 className='w-fit py-4 rounded text-2xl sm:text-4xl '>
@@ -68,7 +68,7 @@ export function TwelveGroupExperience() {
           Some projects as part of my job, including:
         </h3>
         <div className='list-none text-lg ml-6 my-2 py-2 flex flex-col items-center sm:flex-row sm:justify-around sm:items-center'>
-          <Link href='https://pingonio.com/'>
+          <Link legacyBehavior href='https://pingonio.com/'>
             <a
               className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center ring-metal ring-1'
               target='_blank'
@@ -76,7 +76,7 @@ export function TwelveGroupExperience() {
               pingonio.com
             </a>
           </Link>
-          <Link href='https://kangonio.com/'>
+          <Link legacyBehavior href='https://kangonio.com/'>
             <a
               className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center ring-metal ring-1'
               target='_blank'
@@ -85,7 +85,7 @@ export function TwelveGroupExperience() {
             </a>
           </Link>
 
-          <Link href='https://zemnekhedmat.org/'>
+          <Link legacyBehavior href='https://zemnekhedmat.org/'>
             <a
               className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center ring-metal ring-1'
               target='_blank'
@@ -93,7 +93,7 @@ export function TwelveGroupExperience() {
               zemnekhedmat.org
             </a>
           </Link>
-          <Link href='https://www.missone.ir/'>
+          <Link legacyBehavior href='https://www.missone.ir/'>
             <a
               className='w-60 sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-2 mb-3 sm:mb-0 rounded-lg text-center ring-metal ring-1'
               target='_blank'

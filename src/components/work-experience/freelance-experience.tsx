@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAppStore, faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 
-export function FreelanceExperience() {
+export function FreelanceExperience(): JSX.Element {
   return (
     <div className='my-3 ml-3 border-t-2 font-medium'>
       <h2 className='p-1 w-fit rounded text-2xl sm:text-4xl my-5'>
@@ -47,7 +47,10 @@ export function FreelanceExperience() {
         </li>
       </ul>
       <div className='flex flex-col sm:flex-row items-center justify-around py-3'>
-        <Link href='https://play.google.com/store/apps/details?id=com.shafaaq.app'>
+        <Link
+          legacyBehavior
+          href='https://play.google.com/store/apps/details?id=com.shafaaq.app'
+        >
           <a
             className='flex items-center font-extrabold transition ease-in-out delay-150 bg-tahiti  text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-3 mb-3 sm:mb-0 rounded-lg ring-metal ring-1'
             target='_blank'
@@ -63,7 +66,10 @@ export function FreelanceExperience() {
           </a>
         </Link>
 
-        <Link href='https://apps.apple.com/us/app/shafaq-news/id1476990880'>
+        <Link
+          legacyBehavior
+          href='https://apps.apple.com/us/app/shafaq-news/id1476990880'
+        >
           <a
             className='flex items-center sm:w-auto font-extrabold transition ease-in-out delay-150 bg-tahiti  text-bermuda hover:bg-bermuda hover:text-tahiti hover:-translate-y-1 hover:scale-100  duration-300 p-3 rounded-lg ring-metal ring-1'
             target='_blank'
